@@ -5,14 +5,13 @@ import { UppercasePipe } from './uppercase.pipe';
 import { LowercasePipe } from './lowercase.pipe';
 import { RandomCompComponent } from './random-comp/random-comp.component';
 
-
 // ng g pipe Lowercase --module admin
 @NgModule({
   declarations: [
     AdminDashboardComponent,
     RandomCompComponent,
     UppercasePipe,
-    LowercasePipe
+    LowercasePipe,
   ],
   imports: [
     CommonModule
